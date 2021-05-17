@@ -19,8 +19,6 @@ public class PaymentController {
     public Payment getById(@PathVariable Integer id){
 
 
-        System.out.println(id);
-
         return paymentService.getById(id);
 
     }
