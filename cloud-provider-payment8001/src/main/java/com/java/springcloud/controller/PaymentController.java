@@ -21,8 +21,6 @@ public class PaymentController {
 
         System.out.println(id);
 
-        System.out.println(33);
-
         return paymentService.getById(id);
 
     }
