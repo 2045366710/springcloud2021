@@ -17,7 +17,7 @@ public class PaymentController {
 
     @GetMapping("get/{id}")
     public Payment getById(@PathVariable Integer id){
-
+        System.out.println();
         return paymentService.getById(id);
 
     }
