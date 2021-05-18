@@ -1,6 +1,6 @@
 package com.java.springcloud.controller;
 
-import com.java.springcloud.entity.Payment;
+import com.java.springcloud.entities.Payment;
 import com.java.springcloud.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

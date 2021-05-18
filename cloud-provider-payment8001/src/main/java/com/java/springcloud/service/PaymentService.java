@@ -1,6 +1,6 @@
 package com.java.springcloud.service;
 
-import com.java.springcloud.entity.Payment;
+import com.java.springcloud.entities.Payment;
 
 public interface PaymentService {
 
