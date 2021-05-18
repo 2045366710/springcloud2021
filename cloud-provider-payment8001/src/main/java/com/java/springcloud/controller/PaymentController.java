@@ -18,8 +18,6 @@ public class PaymentController {
     @GetMapping("get/{id}")
     public Payment getById(@PathVariable Integer id){
 
-
-
         return paymentService.getById(id);
 
     }
