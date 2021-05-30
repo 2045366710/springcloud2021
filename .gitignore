@@ -14,3 +14,10 @@ gen
 /README.md
 .DS_Store
 
+cloud-api-commons/src/main/resources/
+cloud-api-commons/src/test/
+cloud-eureka-server7001/src/test/
+cloud-eureka-server7002/src/test/
+cloud-eureka-server7003/src/test/
+cloud-provider-payment8002/src/test/
+cloud-provider-payment8002/target/generated-sources/
