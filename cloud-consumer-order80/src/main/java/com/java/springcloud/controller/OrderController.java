@@ -15,6 +15,6 @@ public class OrderController {
 
     @GetMapping("get/payment/{id}")
     public Payment getPayment(@PathVariable("id") long id){
-        return restTemplate.getForObject("http://localhost:8001/payment/get/"+id,Payment.class);
+        return restTemplate.getForObject("http://CLOUD-PROVIDER-SERVICE/payment/get/"+id,Payment.class);
     }
 }
