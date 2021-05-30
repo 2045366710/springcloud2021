@@ -9,7 +9,6 @@ gen
 /.settings/
 /.springBeans
 /target/
-/.gitignore
 /user-profile-analysis.iml
 /.idea
 /README.md
